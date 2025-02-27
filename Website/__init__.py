@@ -10,7 +10,7 @@ def create_App():
     app = Flask(__name__)
     app.config['SECRET_KEY']= "Learning"
     # app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_Name}' # in DB_Name mention.db at end i.e. Notes.db
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://flaskadmin:Flask%40123@localhost:5432/Notes'
+    app.config['SQLALCHEMY_DATABASE_URI'] = your_database_URL 
     # app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = False # Auto commit is OFF 
     # app.config['SQLALCHEMY_ECHO'] = True  # Shows SQL queries in the console
 
