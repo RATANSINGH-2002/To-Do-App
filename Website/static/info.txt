@@ -1,0 +1,1 @@
+holds all the CSS and JS files i.e. static files 
