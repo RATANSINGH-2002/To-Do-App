@@ -1,3 +1,5 @@
 # To-Do-App
-Flask and PostgresSQL
+Flask and PostgreSQL
+
+
 RUN main.py file from run button
